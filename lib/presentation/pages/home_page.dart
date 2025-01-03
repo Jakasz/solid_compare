@@ -134,7 +134,7 @@ class HomePage extends StatelessWidget {
                 return Center(
                     child: Text(
                   "<${imageProvider.comparisonResult}>",
-                  style: TextStyle(fontSize: 16, color: Colors.redAccent),
+                  style: const TextStyle(fontSize: 16, color: Colors.redAccent),
                 ));
               })
             ],
